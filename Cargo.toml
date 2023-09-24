@@ -1,0 +1,34 @@
+[package]
+name = "dreg"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+obj-rs = "0.7.1"
+[package.metadata.android.activity_attributes]
+"android:exported" ="true"
+"android:screenOrientation"="portrait"
+"android:keepScreenOn"="true"
+
+[features]
+#audio = [] # feature has no explicit dependencies
+
+[dependencies.macroquad]
+macroquad = "0.4.2"
+features = ['audio']
+
+[package.metadata.android]
+#res = "resources"
+assets = "assets"
+package_name = "org.bjason.dreg"
+res = "android_res"
+icon = "@mipmap/ic_launcher"
+target_sdk_version = 33
+version_code = 3
+version_name = "Version 3"
+build_targets = [ "armv7-linux-androideabi", "aarch64-linux-android", "i686-linux-android", "x86_64-linux-android" ]
+
+[[package.metadata.android.permission]]
+name = "android.permission.WAKE_LOCK"
