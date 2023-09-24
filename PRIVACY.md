@@ -2,7 +2,7 @@
 
 This is an open source Android app developed by Bernard Jason. The source code is available on GitHub under the Apache license; the app is also available on Google Play.
 
-I hereby state, to the best of my knowledge that I have not programmed this app to collect any personally identifiable information. 
+I hereby state to the best of my knowledge I have not programmed this app to collect any personally identifiable information. 
 
 Explanation of permissions requested in the app
 
