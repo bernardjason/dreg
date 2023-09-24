@@ -1,6 +1,6 @@
 # Dreg
 
-This is an open source Android app developed by Bernard Jason. The source code is available on GitHub under the Apache license; the app is also available on Google Play.
+This is an open source Android/WASM//Desktop app developed by Bernard Jason. The source code is available on GitHub under the Apache license; the app is also available on Google Play.
 
 I hereby state to the best of my knowledge I have not programmed this app to collect any personally identifiable information. 
 
